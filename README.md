@@ -24,7 +24,7 @@ Print the list in your notebook.
 
 Optionally, store the scraped data in a file or database (to ease sharing the data with others). To do so, export the scraped data to either a JSON file or a MongoDB database.
 
-Deliverable 2: Scrape and Analyse Mars Weather Data
+### Deliverable 2: Scrape and Analyse Mars Weather Data
 Open the Jupyter Notebook in the starter code folder named part_2_mars_weather.ipynb. You will work in this code as you follow the steps below to scrape and analyse Mars weather data.
 
 Use automated browsing to visit the Mars Temperature Data Site Links to an external site.. Inspect the page to identify which elements to scrape. Note that the URL is https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html.
@@ -42,7 +42,7 @@ month: the Martian month
 min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
 pressure: The atmospheric pressure at Curiosity's location
 Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
-Analyse the dataset by using Pandas functions to answer the following questions:
+### Analyse the dataset by using Pandas functions to answer the following questions:
 
 How many months exist on Mars?
 How many Martian (and not Earth) days worth of data exist in the scraped dataset?
